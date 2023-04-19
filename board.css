@@ -1,0 +1,29 @@
+#board {
+    display: inline-block;
+    font-size: 0;
+    box-shadow: 0 0 0 7px #0009;
+}
+
+.column {
+    display: inline-block;
+    width: 64px;
+    height: calc(64px*8);
+    background-color: rgb(255, 255, 255);
+}
+
+.row {
+    height: 64px;
+    width: 64px;
+}
+
+.row:hover {
+    box-shadow: inset 0 0 0 2px rgb(64, 62, 90);
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}

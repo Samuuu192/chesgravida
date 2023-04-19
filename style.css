@@ -1,0 +1,15 @@
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: 128px 128px;
+    background-position: 50vh;
+}
